@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<vestidos>
+    <colecciones>
+    <coleccion name="2020">
+        <vestido tipo="novia" color="blanco">
+            <nombre>Vestido 1</nombre>
+            <tallas>
+                <talla>40</talla>
+                <talla>39</talla>
+                <talla>41</talla>
+            </tallas>
+            <marca>St. Patrick</marca>
+            <diseniador>Pepote Garcia</diseniador>
+        </vestido>
+        <vestido tipo="novia" color="negro">
+            <nombre>Vestido 2</nombre>
+            <tallas>
+                <talla>37</talla>
+                <talla>37</talla>
+            </tallas>
+            <marca>Cabotine</marca>
+            <diseniador>Gianmarco DiBuitoni</diseniador>
+        </vestido>
+        <vestido tipo="fiesta" color="rojo">
+            <nombre>Vestido 3</nombre>
+            <tallas>
+                <talla>37</talla>
+                <talla>39</talla>
+                <talla>46</talla>
+            </tallas>
+            <marca>LaSposa</marca>
+            <diseniador>Franchute Nisu</diseniador>
+        </vestido>
+        
+    </coleccion>
+    <coleccion name="diosas del olimpo">
+        <vestido tipo="novia" color="blanco">
+            <nombre>Nique</nombre>
+            <tallas>
+                <talla>39</talla>
+            </tallas>
+            <marca>Maria Diezma</marca>
+            <diseniador>Maria Diezma</diseniador>
+        </vestido>
+        <vestido tipo="fiesta" color="naranja">
+            <nombre>Gaia</nombre>
+            <tallas>
+                <talla>37</talla>
+            </tallas>
+            <marca>Maria Diezma</marca>
+            <diseniador>Maria Diezma</diseniador>
+        </vestido>
+        <vestido tipo="novia" color="turquesa">
+            <nombre>Hera</nombre>
+            <tallas>
+                <talla>37</talla>
+            </tallas>
+            <marca>Maria Diezma</marca>
+            <diseniador>Maria Diezma</diseniador>
+        </vestido>
+    </coleccion>
+    <coleccion name="comunion">
+        <vestido tipo="comunion" color="blanco" genero="chico">
+            <nombre>Marinero</nombre>
+            <tallas>
+                <talla>17</talla>
+                <talla>18</talla>
+                <talla>19</talla>
+            </tallas>
+            <marca>Maria Diezma</marca>
+            <diseniador>Maria Diezma</diseniador>
+        </vestido>
+        <vestido tipo="comunion" color="blanco" genero="chica">
+            <nombre>Princesa</nombre>
+            <tallas>
+                <talla>16</talla>
+                <talla>17</talla>
+            </tallas>
+            <marca>Maria Diezma</marca>
+            <diseniador>Maria Diezma</diseniador>
+        </vestido>
+        <vestido tipo="comunion" color="negro" genero="chico">
+            <nombre>Almirante</nombre>
+            <tallas>
+                <talla>19</talla>
+            </tallas>
+            <marca>Maria Diezma</marca>
+            <diseniador>Maria Diezma</diseniador>
+        </vestido>
+    </coleccion>
+    </colecciones>
+</vestidos>
