@@ -1,0 +1,58 @@
+#menu li{
+    margin-top: 1%;
+    float: left;
+    display: inline;
+    width: 16.6%;
+    
+}
+#menu li a{
+    float: left;
+    width: 100%
+}
+
+#formu1, #formu2,#formu3,#formu4,#formu5,#formu6{
+    border-top: 1px black solid;
+    margin: 2%;
+    padding: 1.2%;
+}
+#cabecera h1{
+    text-align: center;
+    
+}
+#formu1 label{
+    width: 50%;
+}
+aside{
+    float: left;
+    width: 25%;
+}
+main{
+    float: left;
+    width: 50%
+}
+#formulario{
+    width: 100%;
+}
+footer{
+    float: left;
+    bottom: 0;
+    clear: both;
+    width: 100%;
+}
+footer figure{
+    float: left;
+        width: 20%;
+    }
+
+
+@media(max-width:950px){
+    aside figure{
+        display: none;
+    }
+    main{
+        width: 100%
+    }
+    footer figure{
+        width: 100%;
+    }
+}

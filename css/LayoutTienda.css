@@ -1,0 +1,116 @@
+/*Posicionamiento flex-box*/
+table, tr, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%
+}
+#cabecera{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+}
+header{
+    display: flex;
+    flex-flow: column;;
+}
+footer{
+    display: flex;
+    flex-flow: column wrap;;
+}
+#seccionpadre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+#vestidos, #tabla{
+    flex-basis: 100%;
+}
+.fotos{
+    display: flex;
+    flex-flow: column nowrap;
+}
+h1, .vestidos{
+    flex-basis: 100%;
+}
+.imagenes{
+    display: flex;
+    flex-flow: row wrap;
+}
+#cuerpo{
+    display: flex;
+    flex-flow: row nowrap;
+}
+aside{
+    flex-basis: 20%;
+}
+main{
+    flex-basis: 60%;
+}
+#vestidos figure{
+    align-items: center;
+    flex-basis: 24%;
+    margin: 0.5%;
+    
+    margin-bottom: 3%;
+}
+#vestidos img, aside img{
+    height: 100%;
+    width: 100%;
+        
+}
+#tabla{
+    margin: 0 auto;
+}
+#tabla h1{
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+}
+#foter{
+    flex-basis: 60%;
+    margin-left: 20%;
+}
+#iconos{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+#iconos figure{
+    flex-basis: 33%;
+    margin: 0 auto;
+}
+@media (max-width:950px){
+    main{
+        flex-basis: 100%;
+    }
+    #vestidos figure{
+    flex-basis: 49%;
+    margin: 0%;
+    margin-bottom: 3%;
+}
+    aside{
+        display: none;
+    }
+    #foter{
+        flex-basis: 100%;
+        margin-left: 0%;
+    }
+    #iconos figure{
+    flex-basis: 50%;
+    margin: 0 auto;
+}
+}
+@media (max-width:650px){
+    #vestidos figure{
+    flex-basis: 100%;
+}
+    #iconos figure{
+    flex-basis: 100%;
+    margin: 0 auto;
+}
+}
